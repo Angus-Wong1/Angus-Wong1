@@ -1,84 +1,102 @@
 # Angus Wong
 
 <p align="center">
-  <img src="https://quickchart.io/chart/render/zf-8b1e7d0f-1b23-4d91-845f-7a5c1a8f7c8f.png" width="500" height="500" alt="Radar chart showing Angus Wong's technical strengths"/>
+  <img src="./angus_wong_radar_chart.png" width="500" alt="Radar chart showing Angus Wong's technical strengths"/>
 </p>
 
 ---
 
 ## 🧠 About Me
 
-**Data Engineer | Cloud Architect | Automation Specialist**
+**Data Engineer | Cloud Architect | Automation & Systems Specialist**
 
-I design and optimize **large-scale data systems** that turn raw, high-frequency telemetry into real-time, actionable analytics.  
-My background combines **data engineering, distributed systems, and DevOps automation**, enabling me to deliver *low-latency, fault-tolerant* data infrastructure at enterprise and startup scale.
+I build **high-performance data infrastructure** that turns raw telemetry into live, operational insight.  
+My background combines **data engineering, distributed systems, and DevOps automation**, letting me design pipelines that scale linearly, recover automatically, and drive measurable ROI.
 
 - **Current role:** Data Engineer @ *Alabama Power Company*  
-- **Focus areas:** scalable ETL pipelines, predictive maintenance, cost-optimized data infra, cloud automation  
-- **Tech stack:** Python · SQL (PostgreSQL/TimescaleDB) · PySpark · Azure Databricks · Power BI · Docker · GitHub Actions · REST APIs  
-- **Learning:** dbt · Terraform · MLflow · AWS Glue · Rust for high-performance data ops  
+- **Core expertise:** large-scale ETL, predictive maintenance, telemetry ingestion, and low-latency cloud analytics  
+- **Philosophy:** engineer systems that are **auditable, performant, and maintainable** — without unnecessary complexity  
 
 ---
 
 ## ⚙️ Core Competencies
 
-| Domain | Key Tools & Skills | Highlights |
-|--------|--------------------|-------------|
-| **Data Engineering** | PySpark, Pandas, SQL, Azure Databricks, TimescaleDB | Designed ETL pipelines processing 0.5 TB/day of 1 Hz telemetry data; reduced logistics costs by 38 %. |
-| **Cloud Infrastructure** | Azure, AWS, GCP, Snowflake, Terraform, CI/CD | Zero-downtime migrations; optimized cost and latency for 30 k+ sensors. |
-| **Automation & DevOps** | Azure Functions, Docker, GitHub Actions, GitLab CI/CD | Automated SharePoint & data ingestion workflows → 80 % less manual work. |
-| **Machine Learning / Analytics** | PySpark MLlib, Power BI, Grafana, NumPy | Built predictive maintenance models reducing downtime 26 %. |
-| **Systems / Backend** | Python, Rust, C, Ruby, REST APIs, Kafka | Developed distributed automation and open-source integrations (Gamocosm). |
+| Domain | Technologies | Impact |
+|:--------|:--------------|:--------|
+| **Data Engineering** | Python, PySpark, SQL, Azure Databricks, TimescaleDB, PostgreSQL | Designed ETL pipelines ingesting 0.5 TB/day from 30 k+ sensors; reduced logistics costs by **38 %** and latency by **40 %**. |
+| **Cloud Infrastructure** | Azure, AWS, GCP, Snowflake, Terraform, Databricks | Migrated large-scale telemetry database to TimescaleDB with **zero downtime**, lowering cloud spend **35 %**. |
+| **Automation & DevOps** | Azure Functions, Docker, GitHub Actions, GitLab CI/CD, REST APIs | Automated SharePoint & data ingestion workflows → **80 % reduction** in manual intervention. |
+| **Analytics & ML** | PySpark MLlib, Power BI, Grafana, NumPy, Pandas | Built predictive models identifying early equipment failures, cutting downtime by **26 %**. |
+| **Systems Programming** | Rust, C, Ruby, Kafka, Linux, FreeBSD | Developed open-source infrastructure automation tools and optimized dataflow performance in constrained environments. |
 
 ---
 
-## 🏗️ Highlight Projects
+## 🧩 Technical Overview
 
-### 🔹 [Gamocosm.com – Minecraft On Demand](https://github.com/Gamocosm)
-*Python · Ruby · Docker · CI/CD*
-
-- Contributed to the **Python wrapper** automating server creation, backups, and deallocation.  
-- Reduced hosting costs via event-driven resource management and container orchestration.  
-- Demonstrates **cloud automation** and **cost-aware DevOps** skills.
-
-### 🔹 Predictive Maintenance Platform
-*Azure Databricks · PySpark · MSSQL · Power BI*
-
-- Designed Spark-based ETL pipelines integrating 30 k+ sensor telemetry streams @ 1 Hz.  
-- Built PySpark anomaly models detecting early equipment failures → 26 % less maintenance spend.  
-- Delivered executive dashboards with **Power BI** & **Grafana**, improving decision latency.
-
----
-
-## 🧩 Technical Stack
-
-**Languages:**  
+### 🛠️ **Languages**
 `Python` · `SQL` · `Rust` · `C` · `Ruby`
 
-**Data & Analytics:**  
-`Pandas` · `PySpark` · `NumPy` · `TimescaleDB` · `PostgreSQL` · `DuckDB` · `Power BI` · `Grafana`
+### 📊 **Data & Analytics**
+`PySpark` · `Pandas` · `NumPy` · `TimescaleDB` · `PostgreSQL` · `DuckDB` · `Power BI` · `Grafana`
 
-**Cloud & Infra:**  
-`Azure` · `AWS` · `GCP` · `Snowflake` · `Docker` · `GitHub Actions` · `GitLab CI/CD` · `Netlify`
+### ☁️ **Cloud & Infrastructure**
+`Azure` · `AWS` · `GCP` · `Snowflake` · `Databricks` · `Docker` · `Terraform` · `GitHub Actions` · `GitLab CI/CD`
 
-**DevOps / Automation:**  
-`Azure Functions` · `REST APIs` · `CDC/CDF Workflows` · `Change Data Capture` · `Temporal Tables`
+### 🔄 **Automation & Orchestration**
+`Azure Functions` · `REST APIs` · `CDC/CDF Workflows` · `Temporal Tables` · `Event-Driven Pipelines`
 
-**Systems Tools:**  
-`Linux (Arch, Debian, Ubuntu)` · `FreeBSD` · `Vim/Neovim` · `LaTeX`
+### 🧰 **Developer Environment**
+`Linux (Arch, Debian, Ubuntu)` · `FreeBSD` · `Vim/Neovim` · `LaTeX` · `Netlify`
+
+---
+
+## 🚀 Featured Projects
+
+### **Gamocosm.com – Minecraft On Demand**
+> *Python · Ruby · Docker · CI/CD*
+
+- Contributed to open-source automation framework that provisions and tears down Minecraft servers on-demand.  
+- Built a **Python wrapper** for resource orchestration and backup automation.  
+- Optimized container lifecycle to reduce hosting costs through event-driven compute.  
+- Demonstrates strength in **cloud automation**, **API integration**, and **cost-aware infrastructure design**.
+
+---
+
+### **Predictive Maintenance & Telemetry Platform**
+> *Azure Databricks · PySpark · TimescaleDB · Power BI*
+
+- Designed **Spark-based ETL pipelines** processing 30 k+ sensor feeds at 1 Hz.  
+- Integrated time-series data across **SQL Server → TimescaleDB** with Change Data Capture (CDC) for auditability.  
+- Built **predictive maintenance models** detecting failure precursors — reducing maintenance spend 26 %.  
+- Delivered **Grafana/Power BI dashboards** for live operational insight used by executives and engineers.
 
 ---
 
 ## 📈 Career Direction
 
-I’m targeting **high-impact, high-compensation technical roles** such as:
+I’m focused on **high-impact, high-compensation technical roles** such as:
 
-- **Senior / Staff Data Engineer** (Databricks, Snowflake, Airbnb, Stripe)  
-- **ML Infra / MLOps Engineer** (Anthropic, OpenAI, Palantir, DeepMind)  
-- **Cloud Data Architect / Platform Engineer** (AWS, GCP, Cloudflare, Microsoft)
+- **Senior / Staff Data Engineer** — Databricks · Snowflake · Stripe · Airbnb  
+- **ML Infra / MLOps Engineer** — OpenAI · Anthropic · Palantir · DeepMind  
+- **Cloud Data Architect / Platform Engineer** — AWS · GCP · Cloudflare · Microsoft  
 
-My focus is to design systems that scale linearly, self-heal automatically, and deliver measurable business ROI.  
-I bring a **blend of software-engineering rigor and data-pipeline pragmatism**.
+I aim to design systems that are:
+- **Observable** – rich logging, metrics, and tracing baked in  
+- **Reproducible** – deterministic pipelines via CI/CD and IaC  
+- **Cost-efficient** – compute and storage balanced against business value  
+
+My long-term focus is on **AI-aligned infrastructure**, bridging classical data engineering with machine learning operations.
+
+---
+
+## 🧾 Future Roadmap
+
+- 🧩 **Learning:** dbt · MLflow · Airflow · AWS Glue · Terraform  
+- ⚙️ **Certifications:** Databricks Data Engineer Pro | AWS Data Analytics Specialty | GCP Data Engineer  
+- 🧠 **Projects to publish:**  
+  - Real-time Kafka + Spark Streaming demo  
+  - Data warehouse model using dbt + Snowflake  
+  - MLOps pipeline (MLflow + FastAPI + Docker)  
 
 ---
 
@@ -92,4 +110,4 @@ I bring a **blend of software-engineering rigor and data-pipeline pragmatism**.
 ---
 
 > _“Engineering is leverage. The right pipeline can replace an entire department.”_  
-> — Angus Wong
+> — **Angus Wong**
