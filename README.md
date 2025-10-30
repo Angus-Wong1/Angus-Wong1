@@ -74,7 +74,7 @@ My background combines **data engineering, distributed systems, and DevOps autom
 
 ## 📈 Career Direction
 
-I’m focused on **high-impact, high-compensation technical roles** such as:
+I’m seeking **high-impact technical roles** such as:
 
 - **Senior / Staff Data Engineer** — Databricks · Snowflake · Stripe · Airbnb  
 - **ML Infra / MLOps Engineer** — OpenAI · Anthropic · Palantir · DeepMind  
